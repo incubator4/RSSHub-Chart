@@ -18,7 +18,7 @@ spec:
       {{- toYaml . | nindent 8 }}
       {{- end }}
       labels:
-        {{- include "rss-hub.labels" . | nindent 8 }}
+        app.kubernetes.io/name: {{ include "rss-hub.name" . }}-{{ .Values.redis.name }}
         app.kubernetes.io/version: {{ .Values.redis.image.tag | quote }}
         {{- with (mergeOverwrite (deepCopy .Values.global.podLabels) .Values.redis.podLabels) }}
         {{- toYaml . | nindent 8 }}
