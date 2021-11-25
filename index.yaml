@@ -40,6 +40,16 @@ entries:
   ttrss:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-11-25T14:09:12.211106793Z"
+    description: A Helm chart for Kubernetes
+    digest: f36555f3443a3482e3ef2808188896a7422bd251c4fa2a4bce95079f38d36e59
+    name: ttrss
+    type: application
+    urls:
+    - https://github.com/incubator4/rss-chart/releases/download/ttrss-0.1.2/ttrss-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-11-25T13:35:57.98039645Z"
     description: A Helm chart for Kubernetes
     digest: c88441be28243e2eb8994201c6d792daf3e05da924af02bf7e2361cfcf25f1e5
@@ -58,4 +68,4 @@ entries:
     urls:
     - https://github.com/incubator4/rss-chart/releases/download/ttrss-0.1.0/ttrss-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-25T13:35:57.980418851Z"
+generated: "2021-11-25T14:09:12.211133194Z"
