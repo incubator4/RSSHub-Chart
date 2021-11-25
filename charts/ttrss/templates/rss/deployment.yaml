@@ -33,7 +33,10 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           {{- if .Values.env }}
           env:
-          {{- toYaml .Values.env | nindent 8 }}
+            {{- range $key, $value := .Values.env }}
+            - name: {{ $key }}
+              value: {{ printf "'%s'" $value }}
+            {{- end }}
           {{- end }}
           {{- with .Values.envFrom }}
           envFrom:
