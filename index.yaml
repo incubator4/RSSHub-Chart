@@ -37,4 +37,15 @@ entries:
     urls:
     - https://github.com/incubator4/RSSHub-Chart/releases/download/rss-hub-0.1.1/rss-hub-0.1.1.tgz
     version: 0.1.1
-generated: "2021-11-24T18:06:14.961527421Z"
+  ttrss:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-25T13:20:19.187488599Z"
+    description: A Helm chart for Kubernetes
+    digest: 0da06c35c677c618f0bf59dcc45157209dec3fcd626b65b3f3e238e4139064cd
+    name: ttrss
+    type: application
+    urls:
+    - https://github.com/incubator4/rss-chart/releases/download/ttrss-0.1.0/ttrss-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-11-25T13:20:19.187499799Z"
