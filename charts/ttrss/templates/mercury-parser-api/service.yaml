@@ -13,5 +13,5 @@ spec:
       protocol: TCP
       name: http
   selector:
-    {{- include "ttrss.mercuryParser.fullname" . | nindent 4 }}
+    {{- include "ttrss.mercuryParser.selectorLabels" . | nindent 4 }}
 {{- end }}

@@ -11,7 +11,7 @@ spec:
   {{- end }}
   selector:
     matchLabels:
-  {{- include "ttrss.mercuryParser.selectorLabels" . | nindent 6 }}
+      {{- include "ttrss.mercuryParser.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       {{- with (mergeOverwrite (deepCopy .Values.global.podAnnotations) .Values.mercuryParser.podAnnotations) }}

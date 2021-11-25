@@ -13,5 +13,5 @@ spec:
       protocol: TCP
       name: http
   selector:
-    {{- include "ttrss.selectorLabels" . | nindent 4 }}
+    {{- include "ttrss.opencc.selectorLabels" . | nindent 4 }}
 {{- end }}
