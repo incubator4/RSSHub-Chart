@@ -46,16 +46,6 @@ spec:
             - name: http
               containerPort: 80
               protocol: TCP
-          livenessProbe:
-            httpGet:
-              path: /
-              port: http
-            initialDelaySeconds: 120
-          readinessProbe:
-            httpGet:
-              path: /
-              port: http
-            initialDelaySeconds: 120
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
