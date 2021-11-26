@@ -3,6 +3,15 @@ entries:
   rss-hub:
   - apiVersion: v2
     appVersion: "2021-11-02"
+    created: "2021-11-26T08:23:25.216609801Z"
+    description: A Helm chart for RSS Hub
+    digest: 830a8c94dbc1cd401bdd7ed6d501ec2da84dfb0486324073116ed40053e0599e
+    name: rss-hub
+    urls:
+    - https://github.com/incubator4/rss-chart/releases/download/rss-hub-0.1.5/rss-hub-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: "2021-11-02"
     created: "2021-11-24T18:06:14.961508221Z"
     description: A Helm chart for RSS Hub
     digest: 5c11c2eb893b9c28fdda6ebd9a6fcb36e8488271d45c2fad9e44ea3353088bb0
@@ -118,4 +127,4 @@ entries:
     urls:
     - https://github.com/incubator4/rss-chart/releases/download/ttrss-0.1.0/ttrss-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-26T03:42:55.907409251Z"
+generated: "2021-11-26T08:23:25.216711301Z"
