@@ -1,7 +1,7 @@
 apiVersion: v2
-appVersion: "2021-11-02"
+appVersion: "2022-03-07"
 name: rss-hub
 description: A Helm chart for RSS Hub
-version: 0.1.5
+version: 0.2.0
 
 
